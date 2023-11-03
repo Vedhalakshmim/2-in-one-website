@@ -1,0 +1,42 @@
+*{
+    color: antiquewhite;
+}
+.bb{
+    height: 30px;
+    width: 30px;
+}
+.one{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-style: italic;
+    text-align: center;
+
+
+}
+body{
+    background-image: url(v8.jpg);
+    background-size:contain;
+    
+}
+.one{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+.two{
+    font-size:25px;
+    font-style:normal;
+ margin-left:10%;
+ 
+    color: rgb(248, 104, 188));
+}
+li{
+    padding-top: 20px;
+    color:rgb(237, 252, 39)
+}
+
+
+
+

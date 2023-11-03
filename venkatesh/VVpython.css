@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: aliceblue;
+    background: linear-gradient(
+        to right,
+        white 0%,
+        white 50%,
+        red 0%,
+        red 50%
+    );
+}
+.body{
+ text-align: center;
+ text-shadow: 5px 5px 12px rgb(0, 0, 0),
+              5px 5px 12px black;
+ font-size: 35px;
+ padding-top: 15px;
+ padding-bottom: 20px;
+}
+.file{
+ border-color: black;
+ border-width: 5px;
+ border-style: solid;
+ width: 250px;
+ height: 250px;
+ display:inline-block;
+ margin: 25px;
+}
+.file1{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    width: 250px;
+    height: 250px;
+    display:inline-block;
+    margin: 25px;
+}
+.file2{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 25px;
+}
+.container{
+    text-align: center;
+
+}
+.container1{
+    text-align: center;
+    padding: 25px;
+}
+a{
+    background: linear-gradient(
+        to right,
+        black 0%,
+        black 50%,
+        darkgreen 0%,
+        darkgreen 50%
+    );
+    color: aliceblue;
+    padding: 7px;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+    cursor: pointer; 
+}
+.unit{
+    list-style-type:none ;
+}
+.unit1{
+    list-style-type:none ;
+}
+.about{
+    color:black;
+    text-align: center;
+}
+@media screen and (max-width:800px){
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    h2{
+        font-size: 40px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .file{
+        border-width: 5px;
+        border-color: black;
+        border-style: solid;
+        height: 150px;
+        width:150px;
+        display: inline-block;
+        margin: 12px;
+    }
+    .file1{
+        border-width: 5px;
+        border-color: black;
+        border-style: solid;
+        height: 150px;
+        width:150px;
+        display: inline-block;
+        margin: 12px;
+    }
+    .file2{
+            border-width: 5px;
+            border-color: black;
+            border-style: solid;
+            height: 150px;
+            width:150px;
+            margin: 30px;
+            margin-left: 25%;
+        }
+    .container{
+        margin-left: 10p%;
+    }
+        h2{
+            font-size: 30px;
+        }
+    a{
+      margin: 0;
+      padding: 0;
+      width: 20px;  
+      height: 20px;
+      background-color: aqua;
+      border-width: 2px;
+      border-style:solid ;
+    }
+
+    }
+
+    
+}

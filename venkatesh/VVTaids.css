@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background-color: black;
+        color:white;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .continer{
+        font-size: 40px;
+        color:gold;
+        text-align: center;
+    }
+    .notes{
+        text-align: center;
+    }
+    .file{
+        border-color: yellow;
+        border-width: 3px;
+        border-style: solid;
+        display:inline-block;
+        padding: 0px;
+        margin: 40px;
+    }
+    .file1{
+        border-color:yellow;
+        border-width:3px ;
+        border-style: solid;
+        display:inline-block;
+        margin:50px;
+    
+    }
+    button{
+        cursor:pointer;
+        background-color: black;
+        color:beige;
+        padding:7px 10px;
+        border-radius: 15px;
+    }
+    button:hover{
+        color:blue;
+    }

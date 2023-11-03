@@ -1,0 +1,100 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background: linear-gradient(
+        to right,
+        #030303 0%,
+        rgb(17, 15, 15) 50%,
+        darkgreen 0%,
+        darkgreen 50%
+    );
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.continer{
+    font-size: 40px;
+    color:gold;
+    text-align: center;
+}
+.notes{
+    text-align: center;
+}
+.file{
+    border-color: yellow;
+    border-width: 3px;
+    border-style: solid;
+    display:inline-block;
+    padding: 0px;
+    margin: 40px;
+}
+.file1{
+    border-color:yellow;
+    border-width:3px ;
+    border-style: solid;
+    display:inline-block;
+    margin:50px;
+
+}
+button{
+    cursor:pointer;
+    background-color: black;
+    color:beige;
+    padding:7px 10px;
+    border-radius: 15px;
+}
+button:hover{
+    color:blue;
+}
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.about{
+    text-align: center;
+    font-family: 'Gill Sans';
+}
+h2{
+    color:gold;
+}
+@media screen and (max-width:600px) {
+h1{
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Gill Sans';
+    color: antiquewhite;
+}
+h2{
+    font-size: 40px;
+}
+img{
+    width: 150px;
+    height: 100px;
+}
+.file{
+    border-width:5px;
+    border-color: gold;
+    border-style: solid;
+    display: inline-block;
+    margin:0;
+    margin-left:20px;
+    text-align: center;
+}
+.notes{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.about{
+    font-family: 'Gill Sans';
+    text-align: center;
+}
+h2{
+    color: gold;
+    font-size: 20px;
+}
+
+    
+}

@@ -1,0 +1,29 @@
+body{
+    background-image: url(venky1.jpg);
+    background-size: cover;
+    
+}
+#login{
+    top: 20%;
+    left:35%;
+    position: absolute;
+    transition: translate(-50%,-50%);
+    background-color: black;
+    color: blue;
+    padding: 50px 50px 50px 50px;
+    border-radius: 25px;
+
+}
+h1{
+    color:aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: 50px;
+    text-align:center;
+}
+.button{
+    background-color:rgb(230, 38, 118);
+    color: beige;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    cursor:pointer
